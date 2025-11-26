@@ -1,4 +1,4 @@
-# 👨‍🏫 프로젝트: 대학생 멘토링 페이지 (Mentoring Page)
+# 👨‍🏫 대학생 멘토링 페이지
 Figma 디자인 기반, React와 Spring Boot로 구현한 지능형 멘토-멘티 매칭 플랫폼
 
 ---
