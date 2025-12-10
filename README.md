@@ -8,7 +8,7 @@ Figma 디자인 기반, React와 Spring Boot로 구현한 지능형 멘토-멘�
 | 항목 | 내용 |
 | :--- | :--- |
 | **프로젝트 목표** | 대학생 멘토와 멘티를 연결하고, 복잡한 매칭 및 예약을 관리하는 플랫폼 구축. |
-| **디자인 기반** | Figma 디자인을 $\text{React}$ 컴포넌트로 정확하게 구현한 $\text{Design-to-Code}$ 역량 증명 |
+| **디자인 기반** | Figma 디자인을 $\text{React}$ 컴포넌트로 정확하게 구현 |
 | **Figma 링크** |  [[UI](https://www.figma.com/proto/oY469eP1SagPnU0ciUV37g/Untitled?node-id=4-3&t=5aqz34s41EG1cmJv-1)] |
 
 
