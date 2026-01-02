@@ -10,7 +10,7 @@
 | **프로젝트 목표** | 단과대별 특화 인터페이스 및 LLM 기반 가이드를 통한 대학생 멘토링 생태계 구축 |
 | **핵심 차별점** | **AI Matching Score**를 통한 최적 매칭 및 **활동 일지(Activity Log)** 기반의 데이터 관리 |
 | **UI/UX 설계** | [Figma](https://www.figma.com/proto/dd3ECSpNXxNJ8eU5Bt4yll/%EB%8C%80%ED%95%99%EC%83%9D-%EB%A9%98%ED%86%A0%EB%A7%81-%ED%8E%98%EC%9D%B4%EC%A7%80?node-id=1-2&t=0sOzl26nnDJhQONb-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1) |
-
+| **SRS**| [NOTION](https://relieved-robin-887.notion.site/2c59b33188528066bd3dcc715283ea0a?source=copy_link)
 ---
 
 ## 💻 기술 스택 (Tech Stack)
