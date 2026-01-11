@@ -44,6 +44,7 @@
 
 ## 🏗️ 시스템 아키텍처 (Architecture)
 
+<img width="645" height="520" alt="image" src="https://github.com/user-attachments/assets/60d2d6aa-c0bd-44c3-aee3-dfab5cdd9e1c" />
 
 
 ---
