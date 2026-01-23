@@ -1,14 +1,10 @@
 package org.example.backend.entity;
 
-
-
 import jakarta.persistence.*;
-import lombok.Generated;
 import lombok.ToString;
 
-
 @Entity
-@Table(name= "tbl_memo")
+@Table(name = "tbl_memo")
 @ToString
 public class Memo {
 
