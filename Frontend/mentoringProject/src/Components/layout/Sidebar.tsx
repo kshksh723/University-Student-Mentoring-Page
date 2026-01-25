@@ -22,8 +22,8 @@ const Sidebar: FC = () => {
     return (
         <aside className="w-72 bg-white h-[calc(100vh-5rem)] border-r border-gray-100 p-6 hidden lg:flex flex-col gap-8">
             <div>
-                <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">단과대학 필터</h3>
-                <ul className="flex flex-col gap-2 overflow-y-auto h-[calc(85vh-15rem)]">
+                <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">단과대학 필터</h3>
+                <ul className="flex flex-col gap-2 overflow-y-auto h-[calc(80vh-15rem)]">
                     {categories.map((cat) => (
                         <li key={cat.name}>
                             <button className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl hover:bg-gray-50 text-gray-600 hover:text-ensue-blue font-semibold transition-all group">
