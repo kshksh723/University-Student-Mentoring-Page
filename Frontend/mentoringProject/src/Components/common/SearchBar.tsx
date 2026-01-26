@@ -14,7 +14,7 @@ const SearchBar: FC = () => {
     const categories = ["전체", "멘토이름", "강의명", "카테고리"];
 
     return (
-        <form className="max-w-2xl mx-auto" onSubmit={(e) => e.preventDefault()}>
+        <form className="max-w-2xl mx-auto mt-2" onSubmit={(e) => e.preventDefault()}>
             <div className="flex shadow-sm rounded-xl relative group">
                 <label htmlFor="search-dropdown" className="sr-only">
                     검색 카테고리 선택
@@ -45,7 +45,7 @@ const SearchBar: FC = () => {
                     </svg>
                 </button>
 
-                {/* 드롭다운 메뉴 */}
+                {/* 드롭다운 메뉴1 */}
                 {isOpen && (
                     <>
                         {/* 배경 클릭 시 닫기 위한 오버레이 */}
