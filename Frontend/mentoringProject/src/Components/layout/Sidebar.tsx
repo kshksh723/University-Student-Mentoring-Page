@@ -31,13 +31,13 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, onToggle }) => {
             {/* 모바일 배경 오버레이 */}
             {isOpen && (
                 <div
-                    className="fixed inset-0 bg-black/40 backdrop-blur-sm z-105 lg:hidden"
+                    className="fixed inset-x-0 top-20 bottom-0 bg-black/40 backdrop-blur-sm z-105 lg:hidden"
                     onClick={onClose}
                 />
             )}
 
             <aside
-                className={`fixed inset-y-0 left-0 z-110 w-72 bg-white h-screen border-r border-gray-100 pt-8 px-6 pb-6 flex flex-col gap-8 transition-transform duration-300 ease-in-out lg:translate-x-0 lg:sticky lg:top-20 lg:z-30 lg:h-[calc(100vh-5rem)] ${isOpen ? "translate-x-0 shadow-2xl" : "-translate-x-full"
+                className={`fixed top-20 bottom-0 left-0 z-110 w-72 bg-white border-r border-gray-100 pt-1 px-6 pb-6 flex flex-col gap-8 transition-transform duration-300 ease-in-out lg:translate-x-0 lg:sticky lg:top-20 lg:z-30 lg:h-[calc(100vh-5rem)] ${isOpen ? "translate-x-0 shadow-2xl" : "-translate-x-full"
                     }`}
             >
                 {/* 모바일 토글 버튼 (상단 패딩 시작점에 맞춰 조절) */}
@@ -55,10 +55,10 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, onToggle }) => {
                 </button>
                 <div className="flex-1 flex flex-col min-h-0">
                     <div className="flex items-center justify-between">
-                        <h3 className=" text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">단과대학 필터</h3>
-                        <div className="lg:hidden w-5 h-5" />
+                        <h3 className=" text-xs font-bold text-gray-400 uppercase tracking-widest mb-3 mt-2">단과대학 필터</h3>
+                        <div className="lg:hidden w-5 h-6" />
                     </div>
-                    <ul className="flex-1 flex flex-col gap-2 overflow-y-auto pr-2 ">
+                    <ul className="flex-1 flex flex-col gap-2 overflow-y-auto pr-2">
                         {categories.map((cat) => (
                             <li key={cat.name}>
                                 <button className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl hover:bg-gray-50 text-gray-600 hover:text-ensue-blue font-semibold transition-all group">

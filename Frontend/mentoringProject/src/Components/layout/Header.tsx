@@ -10,7 +10,7 @@ export default function Header() {
                     </div>
                     <div>
                         <h1 className="text-2xl sm:text-3xl font-black text-ensue-dark tracking-tighter leading-none">ENSUE</h1>
-                        <p className="hidden xs:block text-[10px] text-gray-400 font-medium uppercase tracking-widest mt-1">
+                        <p className=" xs:block text-[10px] text-gray-400 font-medium uppercase tracking-widest mt-1">
                             Connecting Minds, Building Futures
                         </p>
                     </div>
