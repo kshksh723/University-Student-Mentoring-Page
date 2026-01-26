@@ -2,7 +2,7 @@ import logo from "../../assets/logo.png";
 
 export default function Header() {
     return (
-        <header className="h-20 bg-white border-b border-gray-100 flex items-center justify-between px-8 sticky top-0 z-50">
+        <header className="h-20 bg-white border-b border-gray-100 flex items-center justify-between px-8 sticky top-0 z-100">
             <div className="flex items-center gap-3">
                 <div className="flex items-center gap-2">
                     <div className="relative w-10 h-10 flex">
