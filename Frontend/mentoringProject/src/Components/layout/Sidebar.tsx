@@ -53,12 +53,12 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, onToggle }) => {
                         )}
                     </svg>
                 </button>
-                <div>
-                    <div className="flex items-center justify-between mb-5">
-                        <h3 className=" text-xs font-bold text-gray-400 uppercase tracking-widest">단과대학 필터</h3>
+                <div className="flex-1 flex flex-col min-h-0">
+                    <div className="flex items-center justify-between">
+                        <h3 className=" text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">단과대학 필터</h3>
                         <div className="lg:hidden w-5 h-5" />
                     </div>
-                    <ul className="flex flex-col gap-2 overflow-y-auto h-[calc(100vh-40rem)] lg:h-[calc(80vh-15rem)] pr-2">
+                    <ul className="flex-1 flex flex-col gap-2 overflow-y-auto pr-2 ">
                         {categories.map((cat) => (
                             <li key={cat.name}>
                                 <button className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl hover:bg-gray-50 text-gray-600 hover:text-ensue-blue font-semibold transition-all group">
