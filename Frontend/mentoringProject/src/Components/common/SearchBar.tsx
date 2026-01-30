@@ -25,7 +25,7 @@ const SearchBar: FC = () => {
                     id="dropdown-button"
                     type="button"
                     onClick={() => setIsOpen(!isOpen)}
-                    className="inline-flex items-center shrink-0 z-10 text-ensue-dark bg-gray-50 border border-gray-200 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-ensue-blue/10 font-medium rounded-s-xl text-sm px-5 py-3 text-center transition-all duration-200"
+                    className="cursor-pointer inline-flex items-center shrink-0 z-10 text-ensue-dark bg-gray-50 border border-gray-200 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-ensue-blue/10 font-medium rounded-s-xl text-sm px-5 py-3 text-center transition-all duration-200"
                 >
                     <span className="min-w-16">{selectedCategory}</span>
                     <svg
@@ -66,7 +66,7 @@ const SearchBar: FC = () => {
                                                 setSelectedCategory(category);
                                                 setIsOpen(false);
                                             }}
-                                            className={`inline-flex w-full px-4 py-2.5 hover:bg-gray-50 transition-colors ${selectedCategory === category ? "text-ensue-blue font-bold bg-gray-50" : ""
+                                            className={`cursor-pointer inline-flex w-full px-4 py-2.5 hover:bg-gray-50 transition-colors ${selectedCategory === category ? "text-ensue-blue font-bold bg-gray-50" : ""
                                                 }`}
                                         >
                                             {category}
@@ -83,13 +83,13 @@ const SearchBar: FC = () => {
                     <input
                         type="search"
                         id="search-dropdown"
-                        className="block p-3 w-full z-20 text-sm text-ensue-dark bg-white rounded-e-xl border-s-0 border border-gray-200 focus:ring-2 focus:ring-ensue-blue focus:border-ensue-blue outline-none transition-all placeholder:text-gray-400"
+                        className="maxlength-20 block p-3 w-full z-20 text-sm text-ensue-dark bg-white rounded-e-xl border-s-0 border border-gray-200 focus:ring-2 focus:ring-ensue-blue focus:border-ensue-blue outline-none transition-all placeholder:text-gray-400"
                         placeholder={`${selectedCategory === "전체" ? "멘토 또는 강의" : selectedCategory}를 검색하세요`}
                         required
                     />
                     <button
                         type="submit"
-                        className="absolute top-0 end-0 p-3 text-sm font-medium h-full text-white bg-ensue-blue rounded-e-xl border border-ensue-blue hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-ensue-blue/30 transition-all duration-200 flex items-center justify-center px-6"
+                        className="cursor-pointer absolute top-0 end-0 p-3 text-sm font-medium h-full text-white bg-ensue-blue rounded-e-xl border border-ensue-blue hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-ensue-blue/30 transition-all duration-200 flex items-center justify-center px-6"
                     >
                         <svg
                             className="w-4 h-4 me-2"

@@ -20,7 +20,7 @@ export default function Header() {
             <nav className="flex items-center gap-3 sm:gap-4">
                 <a href="#" className="text-[11px] sm:text-sm font-semibold text-gray-600 hover:text-ensue-blue transition-colors whitespace-nowrap">멘토 찾기</a>
                 <a href="#" className="text-[11px] sm:text-sm font-semibold text-gray-600 hover:text-ensue-blue transition-colors whitespace-nowrap">활동 일지</a>
-                <button className="bg-ensue-blue text-white px-3 py-2 sm:px-5 sm:py-2.5 rounded-full text-[11px] sm:text-sm font-bold hover:shadow-lg hover:shadow-ensue-blue/30 transition-all shrink-0 whitespace-nowrap">
+                <button className="cursor-pointer bg-ensue-blue text-white px-3 py-2 sm:px-5 sm:py-2.5 rounded-full text-[11px] sm:text-sm font-bold hover:shadow-lg hover:shadow-ensue-blue/30 transition-all shrink-0 whitespace-nowrap">
                     로그인
                 </button>
             </nav>
