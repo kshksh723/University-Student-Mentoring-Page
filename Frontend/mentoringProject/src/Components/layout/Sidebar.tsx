@@ -54,7 +54,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, onToggle }) => {
             )}
 
             <aside
-                className={`fixed top-20 bottom-0 left-0 z-110 w-72 bg-white border-r border-gray-100 pt-1 px-6 pb-6 flex flex-col gap-8 transition-transform duration-300 ease-in-out lg:translate-x-0 lg:sticky lg:top-20 lg:z-30 lg:h-[calc(100vh-5rem)] ${isOpen ? "translate-x-0 shadow-2xl" : "-translate-x-full"
+                className={`fixed top-20 bottom-0 left-0 z-110 w-65 bg-white border-r border-gray-100 pt-1 px-6 pb-6 flex flex-col gap-8 transition-transform duration-300 ease-in-out lg:translate-x-0 lg:sticky lg:top-20 lg:z-30 lg:h-[calc(100vh-5rem)] ${isOpen ? "translate-x-0 shadow-2xl" : "-translate-x-full"
                     }`}
             >
                 {/* 모바일 토글 버튼 (상단 패딩 시작점에 맞춰 조절) */}
