@@ -1,0 +1,61 @@
+# ===========================
+# IDE / 에디터 설정 파일
+# ===========================
+.idea/
+.metadata/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# ===========================
+# OS 관련 파일
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Backend (Spring Boot)
+# ===========================
+
+# 빌드 결과물
+Backend/build/
+Backend/target/
+Backend/out/
+
+# Gradle 관련
+Backend/.gradle/
+Backend/gradle/
+Backend/gradlew
+Backend/gradlew.bat
+
+# 민감 정보가 포함된 설정 파일 (DB 비밀번호, API 키 등)
+Backend/src/main/resources/application.properties
+Backend/src/main/resources/application-*.properties
+Backend/src/main/resources/application.yml
+Backend/src/main/resources/application-*.yml
+
+# 로그 파일
+*.log
+
+# ===========================
+# Frontend (React + TypeScript)
+# ===========================
+# 프론트엔드는 자체 .gitignore가 있으므로 최소한만 추가
+Frontend/mentoringProject/node_modules/
+Frontend/mentoringProject/dist/
+
+# ===========================
+# 환경 변수 파일 (보안 중요!)
+# ===========================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ===========================
+# 기타
+# ===========================
+*.class
+*.jar
+*.war
