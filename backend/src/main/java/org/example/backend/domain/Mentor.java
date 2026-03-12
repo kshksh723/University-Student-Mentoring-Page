@@ -36,8 +36,20 @@ public class Mentor {
     @Column(nullable = false, length = 100)
     private String specialty;
 
+    /**
+     * [정처기 용어: 도메인(Domain)]
+     * 속성이 가질 수 있는 값의 범위 - 특정 카테고리로 제한
+     */
+    @Column(nullable = false, length = 20)
+    private String category;
+
     @Column(columnDefinition = "TEXT")
     private String experience;
+
+    @Column(precision = 2, scale = 1)
+    private Double rating;
+
+    private String imageUrl;
 
     /**
      * [정처기 용어: 관계(Relationship)]
@@ -47,9 +59,12 @@ public class Mentor {
     @OneToMany(mappedBy = "mentor", cascade = CascadeType.ALL)
     private List<MentoringSession> sessions = new ArrayList<>();
 
-    public Mentor(String name, String specialty, String experience) {
+    public Mentor(String name, String specialty, String category, String experience, Double rating, String imageUrl) {
         this.name = name;
         this.specialty = specialty;
+        this.category = category;
         this.experience = experience;
+        this.rating = rating;
+        this.imageUrl = imageUrl;
     }
 }
